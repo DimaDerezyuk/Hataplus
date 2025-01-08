@@ -25,37 +25,18 @@ ul{
     list-style: none;
     column-gap: 25px ;
 }
-.skype,
-.email,
-.phone{ 
+.contacts a{
+    padding-left: 30px;
+    position: relative;
+}
+.contacts svg{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
     fill: #1f1f56;
 }
-.skype-bottom,
-.email-bottom,
-.phone-bottom{
-    fill: #1f1f56;
-}
-.phone:hover{
-    fill: #fd8300;
-    transition: all 1s;
-}
-.email:hover{
-    fill: #fd8300;
-    transition: all 1s;
-}
-.skype:hover{
-    fill: #fd8300;
-    transition: all 1s;
-}
-.phone-bottom:hover{
-    fill: #fd8300;
-    transition: all 1s;
-}
-.email-bottom:hover{
-    fill: #fd8300;
-    transition: all 1s;
-}
-.skype-bottom:hover{
+.contacts svg:hover{
     fill: #fd8300;
     transition: all 1s;
 }
@@ -81,13 +62,16 @@ body{
     line-height: 24px;
     color: #b1b1d2;
 }
+.button{
+    font-family: "Arial";
+}
 .button a{
     padding: 13px;
     display: block;
     border-radius: 25px;
     background-color: #ffffff;
     border: 2px solid #fd8300;
-
+    
 }
 .wrapper {
     max-width: 960px;
@@ -104,11 +88,11 @@ body{
     color: #1f1f56;
     transition: all .5s ease;
 }
-
 .top-tel{
     padding: 16px;
 }
 .top-tel img{
+    padding-right: 15px;
     position: absolute;
 }
 .top-tel p:hover a {
@@ -134,8 +118,8 @@ body{
 .email-top a{
     transition: all 1s ease;
 }
-
 .top a{
+    position: relative;
     text-decoration: none;
     color: #25252c;
     font-family: "Arial";
@@ -167,6 +151,7 @@ header{
     top: 0;
     border-left: 1px solid #e4e4ec
 }
+
 .email-top a{
     text-decoration: underline;
     font-size: 16px;
@@ -290,6 +275,7 @@ nav{
     top: 60px;
 }
 .menu a{
+    border-radius: 3px 3px 0 0;
     padding: 10.5px 16px;
     display: block;
     background-color: #e4e4ec;
@@ -300,7 +286,7 @@ nav{
     transition: all .50s;
 }
 
-.submenu{
+.submenu{   
     display: none;
     list-style: none;
 }
@@ -337,6 +323,7 @@ aside ul{
 }
 .menu{
     list-style: none;
+    
 }
 .menu > li{
     border-top: 1px solid #cdcddd;
@@ -351,15 +338,13 @@ aside ul{
 }
 .houses{
     margin-bottom: 46px;
+    display: flex;
 }
 .houses p{
     padding: 2px;
 }
-.houses{
-    display: flex;
-}
 .houses a:hover{
-        text-decoration: underline;
+    text-decoration: underline;
 }
 h2 a {
     font-size: 14px;
@@ -408,7 +393,11 @@ h2 a {
     background-color: #ededf5;
     padding: 20px
 }
+.underline-text{
+    column-gap: 144px   ;
+}
 .underline-text a{
+    padding: 0;
     font-size: 14px;
     line-height: 26px;
     color: #666666;
@@ -424,10 +413,10 @@ h2 a {
     font-weight: bold;
     font-family: "Arial";
 }
-.underline-number{
+.underline-number a{
     font-size: 18px;
     line-height: 24px;
-    color: #25252c;
+    color: #000;
     font-weight: bold;
     font-family: "Arial";
 }
@@ -436,7 +425,6 @@ h2 a {
     padding: 9px;
     background-color: #dcdce6;
 }
-
 .footer-text{
     font-size: 13px;
     line-height: 18px;
