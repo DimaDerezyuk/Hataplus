@@ -88,9 +88,6 @@ body{
     color: #1f1f56;
     transition: all .5s ease;
 }
-.top-tel{
-    padding: 16px;
-}
 .top-tel img{
     padding-right: 15px;
     position: absolute;
@@ -106,7 +103,6 @@ body{
 }
 .logo{
     max-width: 960px;
-    margin: 0 auto;
 }
 .main-logo {
     background: url(../img/TopPhoto.png) no-repeat center/cover;
@@ -153,6 +149,7 @@ header{
 }
 
 .email-top a{
+    padding-right: 15px;
     text-decoration: underline;
     font-size: 16px;
     color: #25252c;
@@ -365,6 +362,9 @@ h2 a {
     color: #9999a6;
     list-style: none;
 }
+.house1:hover h2 > a{
+    text-decoration: underline;
+}
 .house2 a{
     font-size: 14px;
     line-height: 24px;
@@ -377,6 +377,9 @@ h2 a {
     color: #9999a6;
     list-style: none;
 }
+.house2:hover h2 > a{
+    text-decoration: underline;
+}
 .house3 a{
     font-size: 14px;
     line-height: 24px;
@@ -388,6 +391,9 @@ h2 a {
     font-size: 13px;
     color: #9999a6;
     list-style: none;
+}
+.house3:hover h2 > a{
+    text-decoration: underline;
 }
 .underline{
     background-color: #ededf5;
@@ -431,4 +437,30 @@ h2 a {
     color: #9999a6;
     font-family: "Arial";
     text-align: center;
+}
+.price-house h1{
+    padding-top: 15px;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+}
+.price-house {
+    width: 942px;
+    height: 56px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+    font-family: "Arial";
+}
+.price-house a{
+    padding-top: 15px;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: underline;
+    color: #fd8300;
+    font-weight: bold;
+    font-family: "Arial"
+}
+.price-house a:hover{
+    color: #1f1f56;
+    transition: all 2s ;
 }
