@@ -494,4 +494,12 @@ tr{
 th{
     font-family: "Roboto Slab";
     color: #fff;
+    padding: 20px;
+}
+th text{
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Roboto Slab";
 }
