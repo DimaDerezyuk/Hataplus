@@ -459,14 +459,12 @@ h2 a {
     font-family: "Roboto Slab";
 }
 .price-house {
-    width: 942px;
-    height: 56px;
     font-size: 14px;
     line-height: 24px;
     color: #666666;
     font-family: "Arial";
 }
-.price-house a{
+.price-house a{ 
     font-size: 14px;
     line-height: 24px;
     text-decoration: underline;
@@ -478,28 +476,61 @@ h2 a {
     color: #1f1f56;
     transition: all 2s ;
 }
-.submenu-top:hover{
-    font-size: 12px;
-    letter-spacing: 2px;
-    line-height: 24px;
-    color: #25252c;
-    font-family: "Arial";
-}
-tr{
-    width: 960px;
-    height: 70px;
+thead{
+    padding: 20px;
     border-radius: 3px;
     background-color: #1f1f56;
-}
-th{
-    font-family: "Roboto Slab";
-    color: #fff;
-    padding: 20px;
-}
-th text{
     font-size: 14px;
     line-height: 24px;
     color: #ffffff;
     font-weight: 700;
     font-family: "Roboto Slab";
-}
+    border-radius: 3px 3px 3px 3px;
+  }
+  th{
+    padding: 7px;
+    border-top: 1px solid #274569;;
+    border-right: 1px solid #274569;
+  }
+  table{
+    margin-bottom: 27px;
+  }
+  table th{
+    color: #fff;
+  }
+  table{
+    border-collapse: collapse;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 3px;
+  }
+  .text{
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+    font-family: "Arial";
+  }
+  .name{
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+    font-family: "Arial";
+    text-align: left;
+  }
+  tbody{
+    padding: 10px;
+    background-color: #e4e4ec;
+  }
+  td{
+    padding: 11px;
+    border-top: 1px solid #cdcddd;
+    border-right: 1px solid #cdcddd;
+    text-align: center;
+  }
+  .price-table{
+    text-align: right;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+    font-family: "Arial";
+  }
