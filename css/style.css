@@ -486,51 +486,50 @@ thead{
     font-weight: 700;
     font-family: "Roboto Slab";
     border-radius: 3px 3px 3px 3px;
-  }
-  th{
+}
+th{
     padding: 7px;
-    border-top: 1px solid #274569;;
+    border-top: 1px solid #274569;
     border-right: 1px solid #274569;
-  }
-  table{
+}
+table{
     margin-bottom: 27px;
-  }
-  table th{
+}
+table th{
     color: #fff;
-  }
-  table{
+}
+table{
     border-collapse: collapse;
     width: 100%;
     overflow: hidden;
-    border-radius: 3px;
-  }
-  .text{
+    border-radius: 3px;}
+.text{
     font-size: 14px;
     line-height: 24px;
     color: #666666;
     font-family: "Arial";
-  }
-  .name{
+}
+.name{
     font-size: 14px;
     line-height: 24px;
     color: #666666;
     font-family: "Arial";
     text-align: left;
-  }
-  tbody{
+}
+tbody{
     padding: 10px;
     background-color: #e4e4ec;
-  }
-  td{
+}
+td{
     padding: 11px;
     border-top: 1px solid #cdcddd;
     border-right: 1px solid #cdcddd;
     text-align: center;
-  }
-  .price-table{
-    text-align: right;
+}
+.price-table{
+    text-align: right;  
     font-size: 14px;
     line-height: 24px;
     color: #666666;
     font-family: "Arial";
-  }
+}
