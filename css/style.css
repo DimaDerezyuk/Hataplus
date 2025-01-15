@@ -48,13 +48,51 @@ ul li > a {
 ul li:hover > a{
     color: #fd8300;
 }
+.vipadashka,
+.vipadashka1{
+    position: relative;
+}
+.subsub,
+.second-sub{
+    display: none;
+    position: absolute;
+}
+.vipadashka:hover > ul,
+.vipadashka1:hover > ul{
+    display: block;
+}
+.bydki .subsub:hover{
+    display: block;
+}
+.subsub,
+.second-sub{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 120px;
+    background-color: #e4e4e4;
+}
+.subsub{
+    top: 0;
+    left: calc(100% + 4px);
+}
+.subsub::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -4px;
+    border-left: 4px solid transparent;
+    height: 100%;
+}
 body{
     font-family: arial;
     margin: 0;
 }
 .top-line {
-    padding: 15px;
     background-color: #1f1f56;
+}
+.navigation li{
+    padding: 15px 0;
 }
 .top-line ul{
     font-size: 14px;
@@ -419,7 +457,7 @@ h2 a {
 }
 .underline-text a{
     padding: 0;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 26px;
     color: #666666;
     font-family: "Arial";
@@ -491,6 +529,14 @@ th{
     padding: 7px;
     border-top: 1px solid #274569;
     border-right: 1px solid #274569;
+}
+.name-kot{
+    padding: 0 20px;
+    text-align: left;
+}
+.price-kot{
+    padding: 0 20px;
+    text-align: right;
 }
 table{
     margin-bottom: 27px;

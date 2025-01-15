@@ -10,23 +10,27 @@
     <header>
         <div class="top-line">
             <div class="wrapper flex-between">
-                <ul class="flex-between">
-                    <li>
-                        <a href="index.html">Головна</a>
+                <ul class="navigation flex-between">
+                    <li><a href="index.html">Головна</a></li>
+                    <li><a href="#">Про компанію</a></li>
+                    <li class="vipadashka"><a href="pages2.html">Наші будівлі</a>
+                        <ul class="second-sub">
+                            <li><a href="">Таунхауси</a></li>
+                            <li><a href="">Пентхауси</a></li>
+                            <li><a href="">Котеджі</a></li>
+                            <li class="vipadashka1">
+                                <a class="bydki" href="">Собачі будки</a>
+                                <ul class="subsub">
+                                    <li><a href="">Елітні будки</a></li>
+                                    <li><a href="">Для чіхуахуа</a></li>
+                                    <li><a href="">Вольєри</a></li>
+                                    <li><a href="">Халабуди</a></li>
+                                </ul>
+                            </li>
+                        </ul>
                     </li>
-                    <li>
-                        <a href="#">Про компанію</a>
-                    </li>
-                    <li>
-                        <a href="#">Наші будівлі</a>
-                    </li>
-                    
-                    <li>
-                        <a href="#">Акції</a>
-                    </li>
-                    <li>
-                        <a href="#">Контакти</a>
-                    </li>
+                    <li><a href="#">Акції</a></li>
+                    <li><a href="pages3.html">Контакти</a></li>
                 </ul>
                 <ul class="flex-between">
                     <a href="#">
@@ -87,18 +91,20 @@
             <a href="tel:+38(097) 100-25-25">Замовити дзвінок</a>
         </div>
     </div>
-    <div class="price-house wrapper">
-        <h1>Ціни на послуги тимчасового проживання</h1>
-        <p>Кожен котедж оснащений комфортабельними меблями, супутниковим ТБ, душем, туалетом, холодильником, Wi-Fi-зоною. </p>
+    <div class="main-container">
+
+        <div class="price-house wrapper">
+            <h1>Ціни на послуги тимчасового проживання</h1>
+            <p>Кожен котедж оснащений комфортабельними меблями, супутниковим ТБ, душем, туалетом, холодильником, Wi-Fi-зоною. </p>
         <p>Послуга може бути надана кожному з наших гостей, незалежно від терміну проживання в готелі та категорії обраного номера.</p>
         <table>
             <thead>
                 <tr>
-                    <th rowspan="3">Назва котеджу</th>
+                    <th class="name-kot" rowspan="3">Назва котеджу</th>
                 </tr>
                 <tr>
                     <th colspan="3">Характеристики будинків</th>
-                        <th rowspan="3">Ціна</th>
+                    <th class="price-kot" rowspan="3">Ціна</th>
                 </tr>
                   <tr>
                     <th>Загальна площа м.кв.</th>
@@ -113,7 +119,7 @@
                     <td class="text">5</td>
                     <td class="text">2</td>
                     <td class="price-table">45 000 $</td>
-                  </tr>git
+                  </tr>
                   <tr>
                     <td class="name">Montreal Hourse House</td>
                     <td class="text">295</td>
@@ -122,8 +128,8 @@
                     <td class="price-table">29 750 $</td>
                   </tr>
                   <tr>
-                    <td class="name">Edmenton</td>
-                    <td class="text">338</td>
+                      <td class="name">Edmenton</td>
+                      <td class="text">338</td>
                     <td class="text">2</td>
                     <td class="text">2</td>
                     <td class="price-table">53 200 $</td>
@@ -136,8 +142,8 @@
                     <td class="price-table">31 000 $</td>
                   </tr>
                   <tr>
-                    <td class="name">Quebec Enterprices</td>
-                    <td class="text">392</td>
+                      <td class="name">Quebec Enterprices</td>
+                      <td class="text">392</td>
                     <td class="text">4</td>
                     <td class="text">2</td>
                     <td class="price-table">110 000 $</td>
@@ -155,6 +161,7 @@
             <p>Можлива погодинна оренда котеджу (мінімальний час оренди - 5 днів).</p>
             <a href="#">Ознайомитись з правилами проживання</a>
         </div>
+        </div>
         <div class="hr wrapper">
             <hr>
         </div>
@@ -168,19 +175,19 @@
                 <figure>
                     <figcaption class="house1 items-center">
                         <picture>
-                            <source srcset="" type="">
+                            <source srcset="img/house1.jpg" type="">
                             <img src="img/house1.jpg" alt="">
                         </picture>
                         <h2><a href="#">EDMONTON (338 м²)</a></h2>
-                        <p>Загальна площ                        <p>Кількість спалень: 4</p>
-а будови: 312 м²</p>
+                        <p>Загальна площа будови: 312 м²</p>
+                        <p>Кількість спалень: 4</p>
                         <p>Гараж: 2 авто</p>
                     </figcaption>
                 </figure>
                 <figure>
                     <figcaption class="house2">
                         <picture>
-                            <source srcset="" type="">
+                            <source srcset="img/house2.jpg" type="">
                             <img src="img/house2.jpg" alt="">
                         </picture>
                         <h2><a href="#">MONTREAL (332 м²)</a></h2>
@@ -192,7 +199,7 @@
                 <figure>
                     <figcaption class="house3">
                         <picture>
-                            <source srcset="" type="">
+                            <source srcset="img/house3.jpg" type="">
                             <img src="img/house3.jpg" alt="">
                         </picture>
                         <h2><a href="#">CALGARY (294 м²)</a></h2>
@@ -203,7 +210,7 @@
                 </figure>
                 <figcaption class="house4">
                     <picture>
-                        <source srcset="" type="">
+                        <source srcset="img/house4.jpg" type="">
                         <img src="img/house4.jpg" alt="">
                     </picture>
                     <h2><a href="#">RICHMOND (324 м2)   </a></h2>
