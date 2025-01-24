@@ -593,10 +593,10 @@ thead{
     font-family: "Arial";
   }
   .contacts-t{
-line-height: 24px;
-color: #24242b;
-font-weight: 700;
-font-family: "Roboto Slab";
+    line-height: 24px;
+    color: #24242b;
+    font-weight: 700;
+    font-family: "Roboto Slab";
   }
   .contacts-t p{
     padding-top: 12px;
