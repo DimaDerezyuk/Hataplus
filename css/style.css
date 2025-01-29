@@ -26,10 +26,10 @@ ul{
     column-gap: 25px ;
 }
 .contacts a{
-    padding-left: 30px;
     position: relative;
 }
 .contacts svg{
+    column-gap: 15px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -51,6 +51,9 @@ ul li:hover > a{
 body{
     font-family: arial;
     margin: 0;
+}
+.top-svg{
+    fill: white;
 }
 .top-line {
     padding: 15px;
@@ -78,15 +81,16 @@ body{
     margin: 0 auto;
 }
 .header{
+    
+    filter: drop-shadow(0 0 5px rgba(0,0,0,0.1));
     padding-top: 60px;
-    box-shadow: 0 0 2px 2px rgba(0,0,0,0.1);
   }
 .flex-between {
     display: flex;
     justify-content: space-between;
 }
 .top-line svg{
-    color: #1f1f56;
+    color: white;
 }
 .top-line:hover > svg{
     color: #1f1f56;
@@ -195,15 +199,6 @@ header{
     color: #25252c;
     font-weight: bold;
     padding: 20px;
-}
-.email-top:before {
-    content:"";
-    width: 1px;
-    height: 51px;
-    position: absolute;
-    left: -28px;
-    top: 0;
-    border-left: 1px solid #e4e4ec
 }
 
 .email-top a{
@@ -544,134 +539,134 @@ thead{
     font-weight: 700;
     font-family: "Roboto Slab";
     border-radius: 3px 3px 3px 3px;
-  }
-  th{
-    padding: 7px;
+}
+th{
+    padding: 4px;
     border-top: 1px solid #274569;;
     border-right: 1px solid #274569;
-  }
-  table{
+}
+table{
     margin-bottom: 27px;
-  }
-  table th{
+}
+table th{
     color: #fff;
-  }
-  table{
+}
+table{
     border-collapse: collapse;
     width: 100%;
     overflow: hidden;
     border-radius: 3px;
-  }
-  .text{
+}
+.text{
     font-size: 14px;
     line-height: 24px;
     color: #666666;
     font-family: "Arial";
-  }
-  .name{
+}
+.name{
     font-size: 14px;
     line-height: 24px;
     color: #666666;
     font-family: "Arial";
     text-align: left;
-  }
-  tbody{
+}
+tbody{
     padding: 10px;
     background-color: #e4e4ec;
-  }
-  td{
+}
+td{
     padding: 11px;
     border-top: 1px solid #cdcddd;
     border-right: 1px solid #cdcddd;
     text-align: center;
-  }
-  .price-table{
+}
+.price-table{
     text-align: right;
     font-size: 14px;
     line-height: 24px;
     color: #666666;
     font-family: "Arial";
-  }
-  .contacts-t{
+}
+.contacts-t{
     line-height: 24px;
     color: #24242b;
     font-weight: 700;
     font-family: "Roboto Slab";
-  }
-  .contacts-t p{
+}
+.contacts-t p{
     padding-top: 12px;
-  }
-  .where-is a{
+}
+.where-is a{
     text-decoration: none;
     font-size: 18px;
     line-height: 24px;
     color: #25252c;
     font-weight: bold;
     font-family: "Arial";
-  }
-  .numb h2{
+}
+.numb h2{
     font-size: 14px;
     line-height: 24px;
     color: #24242b;
     font-weight: 700;
     font-family: "Roboto Slab";
     margin-bottom: 19px;
-  }
+}
   .numb p{
     font-size: 14px;
     line-height: 21px;
     color: #666666;
     font-family: "Arial";
     margin-bottom: 14px;
-  }
-  .sv{
+}
+.sv{
     margin-bottom: 20px;
-   }
-  .tel-middle a{
+}
+.tel-middle a{
     font-size: 18px;
     line-height: 24px;
     color: #25252c;
     font-weight: bold;
     text-decoration: none;
     transition: all .5s;
-  }
-  .tel-middle p:hover > a{
+}
+.tel-middle p:hover > a{
     color: #fd8300;
-  }
-  .tel-middle p{
+}
+.tel-middle p{
     margin-bottom: 10px;
     text-align: left;
-  }
-  .email{
+}
+.email{
     text-decoration: underline;
-  }
-  .gmail a{
+}
+.gmail a{
     font-size: 16px;
     line-height: 24px;
     text-decoration: underline;
     color: #25252c;
     font-family: "Arial";
     transition: all 1s ease;
-  }
-  .gmail a:hover{
+}
+.gmail a:hover{
     color: #fd8300;
-  }
-  .konsul h2{
+}
+.konsul h2{
     font-size: 14px;
     line-height: 24px;
     color: #24242b;
     font-weight: 700;
     font-family: "Roboto Slab";
     margin-bottom: 19px;
-  }
-  .konsul p{
+}
+.konsul p{
     font-size: 14px;
     line-height: 21px;
     color: #666666;
     font-family: "Arial";
     margin-bottom: 4px;
-  }
-  .first-numb a{
+}
+.first-numb a{
     font-size: 18px;
     line-height: 24px;
     color: #25252c;
@@ -680,11 +675,19 @@ thead{
     transition: all 1s ease;
     text-decoration: none;
     text-align: left;
-  }
-  .first-numb a:hover{
+}
+.first-numb a:hover{
     color: #fd8300;
-  }
-  .direct-numb a{
+}
+ .name-k{
+    padding: 5px ;
+    text-align: left;
+}
+.price-th{
+    text-align: right;
+}
+
+.direct-numb a{
     font-size: 18px;
     line-height: 24px;
     color: #25252c;
@@ -693,24 +696,37 @@ thead{
     transition: all 1s ease;
     text-decoration: none;
     text-align: left; 
-  }
+}
   .direct-numb a:hover{
     color: #fd8300;
-  }
-  .requisite h2{
+}
+.requisite h2{
     font-size: 14px;
     line-height: 24px;
     color: #24242b;
     font-weight: 700;
     font-family: "Roboto Slab";
     margin-bottom: 19px;  
-  }
-  .requisite p{
+}
+.requisite p{
     font-size: 13px;
     line-height: 21px;
     color: #666666;
     font-family: "Arial";
-   }
+}
+.price-textt{
+    padding-bottom: 20px;
+}
+.price-texttt{
+    padding-bottom: 10px;
+}
 .map{
     padding: 25px;
+}
+.forma-call{
+    font-size: 14px;
+line-height: 24px;
+color: #24242b;
+font-weight: 700;
+font-family: "Roboto Slab";
 }
