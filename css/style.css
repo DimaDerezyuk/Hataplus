@@ -764,7 +764,7 @@ button {
   font-style: italic;
   font-family: "Arial";
 }
-.map {
+.map iframe{
     position: relative;
     overflow: hidden;
     width: 50%;
