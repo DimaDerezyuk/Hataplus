@@ -33,7 +33,7 @@ ul{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    left: 0;
+    left: -20px;
     fill: #1f1f56;
 }
 .contacts svg:hover{
@@ -90,6 +90,7 @@ body{
     justify-content: space-between;
 }
 .top-line svg{
+
     color: white;
 }
 .top-line:hover > svg{
@@ -507,7 +508,7 @@ h2 a {
     text-align: center;
 }
 .price-house h1{
-    padding-top: 15px;
+    margin-bottom: 15px;
     font-weight: 700;
     font-family: "Roboto Slab";
 }
@@ -680,10 +681,11 @@ td{
     color: #fd8300;
 }
  .name-k{
-    padding: 5px ;
+    padding: 25px;
     text-align: left;
 }
 .price-th{
+    padding: 25px;
     text-align: right;
 }
 
@@ -718,9 +720,10 @@ td{
     padding-bottom: 20px;
 }
 .price-texttt{
-    padding-bottom: 10px;
+    margin-bottom: 20px;
 }
 .map{
+    column-gap: 15px;
     padding: 25px;
 }
 .form{
