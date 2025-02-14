@@ -69,6 +69,7 @@ body{
     font-family: "Arial";
 }
 .button a{
+    font-weight: bold;
     padding: 13px;
     display: block;
     border-radius: 25px;
@@ -81,8 +82,6 @@ body{
     margin: 0 auto;
 }
 .header{
-    
-    filter: drop-shadow(0 0 5px rgba(0,0,0,0.1));
     padding-top: 60px;
   }
 .flex-between {
@@ -687,11 +686,11 @@ td{
     color: #fd8300;
 }
  .name-k{
-    padding: 11px;
+    padding: 21px;
     text-align: left;
 }
 .price-th{
-    padding: 11px;
+    padding: 21px;
     text-align: right;
 }
 
@@ -777,9 +776,8 @@ button {
     position: relative;
     overflow: hidden;
     width: 50%;
-  }
-  
-  .form {
+  } 
+.form {
     font-size: 14px;
     width: 50%;
     line-height: 24px;
