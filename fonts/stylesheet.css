@@ -3,7 +3,7 @@
     src: url('RobotoSlab-Bold.woff2') format('woff2'),
         url('RobotoSlab-Bold.woff') format('woff'),
         url('RobotoSlab-Bold.ttf') format('truetype');
-    font-weight: bold;
+    ight: bold;
     font-style: normal;
     font-display: swap;
 }
@@ -13,7 +13,7 @@
     src: url('RobotoSlab-Regular.woff2') format('woff2'),
         url('RobotoSlab-Regular.woff') format('woff'),
         url('RobotoSlab-Regular.ttf') format('truetype');
-    font-weight: normal;
+    ight: normal;
     font-style: normal;
     font-display: swap;
 }

@@ -90,8 +90,10 @@ body{
     justify-content: space-between;
 }
 .top-line svg{
-
     color: white;
+}
+.divv{
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
 }
 .top-line:hover > svg{
     color: #1f1f56;
@@ -147,16 +149,15 @@ body{
 }
 .subsub li+li,
 .second-sub li+li{
-  border-top: 1px solid #8e8e91;
+  border-top: 1px solid #cecedd;
 }
 .subsub,
 .second-sub{
   border-radius: 3px;
 }
-
 .subsub{
     top: 0;
-    left: calc(100% + 4px);
+    left: calc(100% + 7px);
 }
 .subsub::before{
     content: "";
@@ -198,8 +199,13 @@ header{
     font-size: 18px;
     line-height: 24px;
     color: #25252c;
-    font-weight: bold;
     padding: 20px;
+}
+.top 
+.email,
+.phone,
+.skype{
+    font-weight: bold;
 }
 
 .email-top a{
@@ -681,11 +687,11 @@ td{
     color: #fd8300;
 }
  .name-k{
-    padding: 25px;
+    padding: 11px;
     text-align: left;
 }
 .price-th{
-    padding: 25px;
+    padding: 11px;
     text-align: right;
 }
 
@@ -728,10 +734,10 @@ td{
 }
 .form{
     font-size: 14px;
-line-height: 24px;
-color: #24242b;
-font-weight: 700;
-font-family: "Roboto Slab";
+    line-height: 24px;
+    color: #24242b;
+    font-weight: 700;
+    font-family: "Roboto Slab";
 }
 button {
     width: 140px;
