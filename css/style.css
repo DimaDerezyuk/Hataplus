@@ -580,9 +580,9 @@ table{
 tbody{
     padding: 10px;
     background-color: #e4e4ec;
-}
+}   
 td{
-    padding: 11px;
+    padding: 11px 21px;
     border-top: 1px solid #cdcddd;
     border-right: 1px solid #cdcddd;
     text-align: center;
