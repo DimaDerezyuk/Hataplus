@@ -595,6 +595,7 @@ td{
     font-family: "Arial";
 }
 .contacts-t{
+    padding-bottom: 15px;
     line-height: 24px;
     color: #24242b;
     font-weight: 700;
@@ -646,6 +647,37 @@ td{
 }
 .email{
     text-decoration: underline;
+}
+input[type=checkbox]:checked+span {
+    top: 3px;
+    left: 3%;
+    width: 7px;
+    height: 4px;
+    border-top: 2px solid #1f1f56;
+    border-right: 2px solid #1f1f56;
+    transform: translate(-47%, -50%) rotate(135deg);
+  }
+input[type=checkbox] {
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: 1px solid #c5c5d4;
+  }
+  
+.parent {
+    position: relative;
+}
+  
+.parent span {
+    position: absolute;
+}
+.check {
+    font-size: 13px;
+    line-height: 21px;
+    color: #666666;
+    font-family: "Arial";
 }
 .gmail a{
     font-size: 16px;
@@ -762,7 +794,7 @@ button {
     text-align: center;
   }
   .value {
-  width: 100%;
+  width: 87%;
   padding: 10px 25px;
   border-radius: 3px;
   background-color: #ffffff;
@@ -773,6 +805,18 @@ button {
   font-style: italic;
   font-family: "Arial";
 }
+.valuee {
+    width: 75%;
+    padding: 10px 25px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: 1px solid #c5c5d4;
+    margin-bottom: 9px;
+    font-size: 13px;
+    line-height: 21px;
+    font-style: italic;
+    font-family: "Arial";
+  }
 .map iframe{
     position: relative;
     overflow: hidden;
