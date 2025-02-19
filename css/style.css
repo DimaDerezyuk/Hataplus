@@ -201,9 +201,7 @@ header{
     padding: 20px;
 }
 .top 
-.email,
-.phone,
-.skype{
+.phone{
     font-weight: bold;
 }
 
@@ -762,7 +760,6 @@ input[type=checkbox] {
 }
 .map{
     column-gap: 15px;
-    padding: 25px;
 }
 .form{
     font-size: 14px;
@@ -794,16 +791,16 @@ button {
     text-align: center;
   }
   .value {
-  width: 87%;
-  padding: 10px 25px;
-  border-radius: 3px;
-  background-color: #ffffff;
-  border: 1px solid #c5c5d4;
-  margin-bottom: 9px;
-  font-size: 13px;
-  line-height: 21px;
-  font-style: italic;
-  font-family: "Arial";
+    width: 87%;
+    padding: 10px 25px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: 1px solid #c5c5d4;
+    margin-bottom: 9px;
+    font-size: 13px;
+    line-height: 21px;
+    font-style: italic;
+    font-family: "Arial";
 }
 .valuee {
     width: 75%;
@@ -833,6 +830,8 @@ button {
   }
   
   .check {
+    padding-right:50px;
+    padding-top: 11px;
     font-size: 13px;
     line-height: 21px;
     color: #666666;
